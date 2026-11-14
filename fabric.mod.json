@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hourglasstimer",
+  "version": "${version}",
+  "name": "Hourglass Timer",
+  "description": "A small one-hour countdown HUD, toggled with a configurable key.",
+  "authors": ["Gabriel"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["it.gabriel.hourglasstimer.HourglassTimerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
